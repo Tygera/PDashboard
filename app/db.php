@@ -8,8 +8,8 @@
 
 declare(strict_types=1);
 
-const DB_FILE       = __DIR__ . '/data.sqlite';
-const LEGACY_CONFIG = __DIR__ . '/config.php';
+const DB_FILE       = __DIR__ . '/../db/data.sqlite';
+const LEGACY_CONFIG = __DIR__ . '/../config/config.php';
 
 function db(): PDO {
     static $pdo = null;
