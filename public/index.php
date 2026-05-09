@@ -189,7 +189,7 @@ $cTop  = (int)($settings['theme_card_top']     ?? 9);
 $cBot  = (int)($settings['theme_card_bottom']  ?? 11);
 
 $memeInterval = max(5, (int)($settings['meme_interval'] ?? 30));
-$memes = is_file(__DIR__ . '/meme.php') ? (require __DIR__ . '/meme.php') : [];
+$memes = is_file(__DIR__ . '/../config/meme.php') ? (require __DIR__ . '/../config/meme.php') : [];
 $initialMeme = (!empty($memes) && $subtitle === ($settings['subtitle'] ?? 'Dashboard'))
     ? $memes[array_rand($memes)]
     : $subtitle;
