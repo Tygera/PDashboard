@@ -1,4 +1,10 @@
 <?php
+/* 
+ * Contains lines to display as subtitles
+ * - German Memes
+ * - Cold Mirror Harry Potter Synchro
+ * - TODO: Stronghold Crusader lines
+*/
 
 return [
     "Krankplätze müssen verdichtet sein.",
