@@ -1,4 +1,4 @@
-# Pashboard
+# PDashboard
 Bookmark Management Tool I use as Startpage in Firefox and stuff.
 
 Not particularly elaborate but it works.
